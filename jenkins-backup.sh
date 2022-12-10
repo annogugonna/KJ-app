@@ -84,7 +84,7 @@ function main() {
   cd "${TMP_DIR}"
   tar -czvf "${TMP_TAR_NAME}" "${ARC_NAME}/"*
   cd -
-  mv -f "${TMP_TAR_NAME}" "${DEST_FILE}"
+  sudo mv -f "${TMP_TAR_NAME}" "${DEST_FILE}"
 
   cleanup
 
